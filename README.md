@@ -80,8 +80,9 @@
 
 #Pending tasks
 
-Replace the print lines with loggers (log4j) implementation.
-Screenshots to be attached in the extent report.
+1. Replace the print lines with loggers (log4j) implementation.
+2. Screenshots to be attached in the extent report.
+3. Documentation needs to be added for each method.
 
 
 

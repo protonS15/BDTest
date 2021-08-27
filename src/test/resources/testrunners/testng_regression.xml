@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TN Test automtion regression suite" parallel="tests"
+	thread-count="6">
+
+	<listeners>
+		<listener
+			class-name="com.qa.blaze.testlisteners.ExtentReportListener" />
+	</listeners>
+
+	<test name="WelcomePage Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="92" />
+		<classes>
+ 			<class name="com.qa.blaze.tests.WelcomePageTest" />
+		</classes>
+	</test>
+	
+	<test name="AvailPageTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="92" />
+		<classes>
+ 			<class name="com.qa.blaze.tests.AvailPageTest" />
+		</classes>
+	</test>
+
+</suite>

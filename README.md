@@ -83,6 +83,7 @@
 1. Replace the print lines with loggers (log4j) implementation.
 2. Screenshots to be attached in the extent report.
 3. Documentation needs to be added for each method.
+4. handling test data in better format, multiple issues on application so validation was tricky as irrespective of the fact whichever cities I choose, the test data in avail page displayed are static, similarly the header remain fixed in "Payments page", the test fields (while filling the form has no restrictions and mandatory fields not highlighted).
 
 
 
